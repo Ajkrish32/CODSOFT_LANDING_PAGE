@@ -1,4 +1,4 @@
-#Landing_Page
+#LANDING_PAGE
 
 Overview
 This repository contains a simple and elegant landing page designed using HTML and CSS. The landing page is intended to showcase [Your Product/Service/Company] with a clean and responsive layout that looks great on both desktop and mobile devices.
