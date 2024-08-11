@@ -1,0 +1,135 @@
+html{
+    scroll-behavior: smooth;
+}
+    
+    body, h1, h2, h3, p, ul, li, a {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    line-height: 17px;
+    background-color: rgb(87, 157, 180);
+}
+header
+{
+    height: 100px; 
+    line-height: 5;
+    font-size: 160%; 
+    background-color: whitesmoke; 
+}
+header nav li
+{
+    padding-left: 4%;
+    padding-bottom: 20%;
+}
+header nav 
+{
+    display: flex;
+    margin-left: 13%;
+}
+
+.logo{
+    filter: brightness(300%);
+}
+
+.edit{
+    color: rgb(255, 255, 255);
+    background-image: url(background.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.edit h1{
+    line-height: 0;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+}
+.image{
+    margin-top: 5%;
+    filter: brightness(80%);
+}
+
+.edit h3{
+    font-style: italic;
+}
+.edit li{
+    font-size: 115%;
+}
+.edit1{
+    font-size: 115%;
+}
+
+.edit3{
+    font-size: 115%;
+}
+
+.edit1 h2{
+    font-style: italic;
+}
+
+.edit3 h3{
+    color: rgb(184, 85, 85);
+}
+
+.dur{
+    color: blueviolet;
+}
+
+
+.dur1{
+    text-align: center;
+    color: red;
+    animation: blinker 1s linear infinite;
+}
+
+.label{
+    text-align: center;
+    margin: 0%;
+    gap: 15%;
+}
+input,textarea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+.submit{
+    background-color: rgb(41, 75, 244);
+    color: aliceblue;
+    border-radius: 12%;
+    cursor: pointer;
+    font-size: 1em;
+}
+.clear{
+    background-color: rgb(236, 85, 85);
+    color: aliceblue;
+    border-radius: 12%;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.submit:hover{
+    background-color: rgb(106, 106, 248);
+}
+.clear:hover{
+    background-color: tomato;
+}
+
+.terms{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+@keyframes blinker {
+    50%{
+        opacity: 0;
+    }
+}
